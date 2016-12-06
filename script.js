@@ -8,7 +8,7 @@ $.ajax({
   }
 })
 
-
+$("#hi").html(object)
 
 
 //var fill = d3.scale.category20();

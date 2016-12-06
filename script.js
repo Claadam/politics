@@ -7,7 +7,7 @@ $.ajax({
   success: function(data) {    
     data.objects.forEach(function(object) {
       display.append(object.firstname + " " + object.lastname + ", " )
-      console.log(object)
+      display2.append(object.birthday + " — ")
     })
   }
 })

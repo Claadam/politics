@@ -9,5 +9,5 @@ $.ajax({
 })
 
 object.forEach(function(display){
-  $("#id").append({background: color}).appendTo(elementsList)
+  object.firstname.appendTo($("#id"))
 })
